@@ -10,7 +10,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-list.files("data")
-list.dirs("data/")
+list.files(here::here("data"))
 ```
 
