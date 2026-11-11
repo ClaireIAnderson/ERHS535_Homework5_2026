@@ -11,5 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 list.files(here::here("data"))
+homicide_data <- read_csv("data/data-homicides-master/homicide-data.csv")
 ```
 
